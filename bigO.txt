@@ -1,0 +1,35 @@
+What is good code?
+    1. Readable
+    2. Scalable (BIG O)
+        speed (and time) of our code
+        memory
+
+Simplifying Big O Rule:
+    Rule 1: Worst Case
+    Rule 2: Remove Constants
+    Rule 3: Different terms for inputs
+    Rule 4: Drop Non Dominant Terms
+
+When our data/input grows..how much does our function slow down?
+    as our elements increases, how many more operations do we have to do?
+
+Linear time = O(n)
+    - O depends on the number of n 
+    - if a list has 10 items, then O depends on the 10 items
+
+Constant time = O(1)
+    - takes the first item in a list (input can be any type of data, not just lists)
+    - number of operations stays flat regardless of how many operations are in the function
+
+Quadratic time = O(n^2)
+    - as number of elements increase, the number of operations increase exponentially
+    - very slow
+    - nested loops
+
+
+Three Pillars of Code:
+    Readable - make sure code is clean and makes sense
+    Speed: has a Big O Time complexity that scales well  - Time Complexity
+    Memory: shouldn't use a lot of memory - Space Complexity
+
+
